@@ -1,9 +1,8 @@
 {
-  "name": "read_csv",
-  "description": "Blank Process",
+  "name": "Tunukiwa",
+  "description": "fill tunukiwa spreadsheets\r\n",
   "main": "Main.xaml",
   "dependencies": {
-    "BalaReva.Excel.Graph.Activities": "[2.0.1]",
     "UiPath.Excel.Activities": "[2.6.2]",
     "UiPath.Mail.Activities": "[1.5.1]",
     "UiPath.System.Activities": "[19.7.0]",
