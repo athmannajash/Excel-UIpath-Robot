@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="951,1621" sap2010:WorkflowViewState.IdRef="Main_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="926,1191" sap2010:WorkflowViewState.IdRef="Main_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities.XamlIntegration</x:String>
@@ -49,7 +49,7 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="911,1541" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="886,1071" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="NewTransaction" />
       <Variable x:TypeArguments="sd:DataTable" Name="filename" />
@@ -60,11 +60,11 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-        <av:Point x:Key="ShapeLocation">350,152.5</av:Point>
+        <av:Point x:Key="ShapeLocation">330,2.5</av:Point>
         <av:Size x:Key="ShapeSize">60,75</av:Size>
-        <av:PointCollection x:Key="ConnectorLocation">380,227.5 380,374.5</av:PointCollection>
-        <x:Double x:Key="Width">881</x:Double>
-        <x:Double x:Key="Height">1504.8319999999999</x:Double>
+        <av:PointCollection x:Key="ConnectorLocation">360,77.5 360,107.5 380,107.5 380,374.5</av:PointCollection>
+        <x:Double x:Key="Width">856</x:Double>
+        <x:Double x:Key="Height">1035</x:Double>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
@@ -73,9 +73,9 @@
     <FlowStep x:Name="__ReferenceID0">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">652,1324.5</av:Point>
+          <av:Point x:Key="ShapeLocation">2,254.5</av:Point>
           <av:Size x:Key="ShapeSize">216,51</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">760,1375.5 760,1424.5</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">110,305.5 110,354.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[filename]" DisplayName="For Each to asign file and sheet names" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
@@ -680,7 +680,7 @@
         <FlowStep x:Name="__ReferenceID1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:Point x:Key="ShapeLocation">652,1424.5</av:Point>
+              <av:Point x:Key="ShapeLocation">2,354.5</av:Point>
               <av:Size x:Key="ShapeSize">216,51</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -697,9 +697,9 @@
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">652,1214.5</av:Point>
+          <av:Point x:Key="ShapeLocation">2,144.5</av:Point>
           <av:Size x:Key="ShapeSize">216,51</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">760,1265.5 760,1324.5</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">110,195.5 110,254.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:BuildDataTable DataTable="[filename]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;xls&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;csv&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;sheet&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_M-PESA_Purchase_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa M-PESA Purchase SR &lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_M-PESA_Awarding_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa M-PESA Awards SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_Airtime_Purchase_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa Airtime Purchase SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_Airtime_Awarding_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa Airtime Award SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
@@ -722,13 +722,13 @@
           <av:PointCollection x:Key="ConnectorLocation">210,925.5 210,964.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[filename]" DisplayName="For Each to asign file and sheet names" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+      <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[filename]" DisplayName="For Each to asign file and sheet names" sap:VirtualizedContainerService.HintSize="564,2672" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
         <ui:ForEachRow.Body>
           <ActivityAction x:TypeArguments="sd:DataRow">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,2386" sap2010:WorkflowViewState.IdRef="Sequence_38">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,2524" sap2010:WorkflowViewState.IdRef="Sequence_38">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="sheetfilename" />
                 <Variable x:TypeArguments="x:String" Name="csvfilename" />
@@ -800,33 +800,15 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </Assign>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="480,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[csvfilename]" />
-              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="480,51" sap2010:WorkflowViewState.IdRef="CommentOut_26">
-                <ui:CommentOut.Body>
-                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="368,151" sap2010:WorkflowViewState.IdRef="Sequence_40">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="330,59" sap2010:WorkflowViewState.IdRef="MessageBox_11" Text="[csvfilename]" TopMost="True" />
-                  </Sequence>
-                </ui:CommentOut.Body>
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-              </ui:CommentOut>
-              <If Condition="[TimeNow = &quot;10&quot;]" DisplayName="delete rows for writing new data" sap:VirtualizedContainerService.HintSize="480,208" sap2010:WorkflowViewState.IdRef="If_4">
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="480,59" sap2010:WorkflowViewState.IdRef="MessageBox_11" Text="[csvfilename]" TopMost="True" />
+              <If Condition="[TimeNow = &quot;12&quot;]" DisplayName="delete rows for writing new data" sap:VirtualizedContainerService.HintSize="480,208" sap2010:WorkflowViewState.IdRef="If_4">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <If.Then>
-                  <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="delete last rows (4)" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" Visible="False" WorkbookPath="[xlsfilename]">
+                  <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="delete last rows (4)" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" Visible="False" WorkbookPath="Tunukiwa.xlsx">
                     <ui:ExcelApplicationScope.Body>
                       <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                         <ActivityAction.Argument>
@@ -895,7 +877,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <If.Then>
-                      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="delete last rows (10)" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_6" Visible="False" WorkbookPath="[xlsfilename]">
+                      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="delete last rows (10)" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_6" Visible="False" WorkbookPath="Tunukiwa.xlsx">
                         <ui:ExcelApplicationScope.Body>
                           <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                             <ActivityAction.Argument>
@@ -958,10 +940,10 @@
                   </If>
                 </If.Else>
               </If>
-              <TryCatch DisplayName="check if csv exists" sap:VirtualizedContainerService.HintSize="480,51" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+              <TryCatch DisplayName="check if csv exists" sap:VirtualizedContainerService.HintSize="480,312" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
@@ -979,7 +961,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:ReadCsvFile>
-                    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[csvdatatable]" DisplayName="write to excel doc from csv" sap:VirtualizedContainerService.HintSize="514,1448" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+                    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[csvdatatable]" DisplayName="write to excel doc from csv" sap:VirtualizedContainerService.HintSize="330,51" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
                       <ui:ForEachRow.Body>
                         <ActivityAction x:TypeArguments="sd:DataRow">
                           <ActivityAction.Argument>
@@ -1004,7 +986,7 @@
                                 <OutArgument x:TypeArguments="x:String">[curdate]</OutArgument>
                               </Assign.To>
                               <Assign.Value>
-                                <InArgument x:TypeArguments="x:String">[Split(row(0).toString," ")(3)]</InArgument>
+                                <InArgument x:TypeArguments="x:String">[Split(row(0).toString," ")(2)]</InArgument>
                               </Assign.Value>
                             </Assign>
                             <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="430,51" sap2010:WorkflowViewState.IdRef="CommentOut_20">
@@ -1032,7 +1014,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:CommentOut>
-                            <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="1" DisplayName="Get Row Item from csv datatable" sap:VirtualizedContainerService.HintSize="430,64" sap2010:WorkflowViewState.IdRef="GetRowItem_2" Row="[row]">
+                            <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="1" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="430,64" sap2010:WorkflowViewState.IdRef="GetRowItem_2" Row="[row]">
                               <ui:GetRowItem.Value>
                                 <OutArgument x:TypeArguments="x:String">[statistics]</OutArgument>
                               </ui:GetRowItem.Value>
@@ -1060,7 +1042,7 @@
                                 <OutArgument x:TypeArguments="x:String">[curtime]</OutArgument>
                               </Assign.To>
                               <Assign.Value>
-                                <InArgument x:TypeArguments="x:String">[Split(row(0).toString," ")(4)]</InArgument>
+                                <InArgument x:TypeArguments="x:String">[Split(row(0).toString," ")(3)]</InArgument>
                               </Assign.Value>
                             </Assign>
                             <ui:BuildDataTable DataTable="[maker]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="430,59" sap2010:WorkflowViewState.IdRef="BuildDataTable_4" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Date&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Time&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Stats&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
@@ -1107,7 +1089,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:CommentOut>
-                            <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="430,379" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_7" Visible="False" WorkbookPath="[xlsfilename]">
+                            <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="430,379" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_7" Visible="False" WorkbookPath="Tunukiwa.xlsx">
                               <ui:ExcelApplicationScope.Body>
                                 <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                                   <ActivityAction.Argument>
@@ -1168,10 +1150,10 @@
                   </Sequence>
                 </TryCatch.Try>
                 <TryCatch.Catches>
-                  <Catch x:TypeArguments="si:IOException" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                  <Catch x:TypeArguments="si:IOException" sap:VirtualizedContainerService.HintSize="400,128" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -1182,7 +1164,7 @@
                       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="330,59" sap2010:WorkflowViewState.IdRef="MessageBox_18" Text="[csvfilename + &quot;cannot be found&quot;]" TopMost="True" />
                     </ActivityAction>
                   </Catch>
-                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,21" sap2010:WorkflowViewState.IdRef="Catch`1_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1197,10 +1179,10 @@
                   </Catch>
                 </TryCatch.Catches>
               </TryCatch>
-              <ui:AppendLine DisplayName="Append Line" FileName="Report.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_13" Text="[currentTime]" />
-              <ui:AppendLine DisplayName="Append Line" FileName="Report.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_14" Text="[sheetfilename]" />
-              <ui:AppendLine DisplayName="Append Line" FileName="Report.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_15" Text="Baseline" />
-              <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="480,514" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_8" Visible="False" WorkbookPath="[xlsfilename]">
+              <ui:AppendLine DisplayName="Append Line" FileName="Tunukiwa.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_13" Text="[currentTime]" />
+              <ui:AppendLine DisplayName="Append Line" FileName="Tunukiwa.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_14" Text="[sheetfilename]" />
+              <ui:AppendLine DisplayName="Append Line" FileName="Tunukiwa.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_15" Text="Baseline" />
+              <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="480,514" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_8" Visible="False" WorkbookPath="Tunukiwa.xlsx">
                 <ui:ExcelApplicationScope.Body>
                   <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                     <ActivityAction.Argument>
@@ -1218,12 +1200,12 @@
                           <OutArgument x:TypeArguments="x:Double">[meanbaseline]</OutArgument>
                         </ui:ExcelReadCell.Result>
                       </ui:ExcelReadCell>
-                      <ui:AppendLine DisplayName="Append Line" FileName="Report.txt" sap:VirtualizedContainerService.HintSize="330,87" sap2010:WorkflowViewState.IdRef="AppendLine_16" Text="[meanbaseline.ToString]" />
+                      <ui:AppendLine DisplayName="Append Line" FileName="Tunukiwa.txt" sap:VirtualizedContainerService.HintSize="330,87" sap2010:WorkflowViewState.IdRef="AppendLine_16" Text="[meanbaseline.ToString]" />
                     </Sequence>
                   </ActivityAction>
                 </ui:ExcelApplicationScope.Body>
               </ui:ExcelApplicationScope>
-              <ui:AppendLine DisplayName="Append Line" FileName="Report.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_17" Text="current stat" />
+              <ui:AppendLine DisplayName="Append Line" FileName="Tunukiwa.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_17" Text="current stat" />
               <Assign sap:VirtualizedContainerService.HintSize="480,60" sap2010:WorkflowViewState.IdRef="Assign_18">
                 <Assign.To>
                   <OutArgument x:TypeArguments="sd:DataTable">[currentstats]</OutArgument>
@@ -1233,7 +1215,7 @@
                 </Assign.Value>
               </Assign>
               <ui:OutputDataTable DataTable="[currentstats]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="480,22" sap2010:WorkflowViewState.IdRef="OutputDataTable_4" Text="[currentstats1]" />
-              <ui:AppendLine DisplayName="Append Line" FileName="Report.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_18" Text="[currentstats1]" />
+              <ui:AppendLine DisplayName="Append Line" FileName="Tunukiwa.txt" sap:VirtualizedContainerService.HintSize="480,87" sap2010:WorkflowViewState.IdRef="AppendLine_18" Text="[currentstats1]" />
               <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="480,51" sap2010:WorkflowViewState.IdRef="CommentOut_25">
                 <ui:CommentOut.Body>
                   <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="368,151" sap2010:WorkflowViewState.IdRef="Sequence_37">
@@ -1262,32 +1244,20 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:ForEachRow>
       <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID10">
+        <FlowStep x:Name="__ReferenceID4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">102,964.5</av:Point>
               <av:Size x:Key="ShapeSize">216,51</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">210,1015.5 210,1074.5</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:AppendLine DisplayName="Append Line" FileName="Report.txt" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="AppendLine_19" Text="-------------------------------------------------------------------------" />
-          <FlowStep.Next>
-            <FlowStep x:Name="__ReferenceID4">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">102,1074.5</av:Point>
-                  <av:Size x:Key="ShapeSize">216,51</av:Size>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="MessageBox_19" Text="[&quot;Done boss. Find text file created&quot;]" TopMost="True">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-              </ui:MessageBox>
-            </FlowStep>
-          </FlowStep.Next>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="MessageBox_19" Text="[&quot;Done boss. Find text file created&quot;]" TopMost="True">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:MessageBox>
         </FlowStep>
       </FlowStep.Next>
     </FlowStep>
@@ -1299,7 +1269,7 @@
           <av:PointCollection x:Key="ConnectorLocation">380,425.5 380,455.5 375.5,455.5 375.5,485.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:BuildDataTable DataTable="[filename]" DisplayName="Data Table with file and sheet names" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;xls&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;csv&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;sheet&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_M-PESA_Purchase_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa M-PESA Purchase SR &lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_M-PESA_Awarding_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa M-PESA Awards SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_Airtime_Purchase_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa Airtime Purchase SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_Airtime_Awarding_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa Airtime Award SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;STK Push NEW .xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_STK_Push_TPS-&lt;/csv&gt;&#xA;    &lt;sheet&gt;STK_Push_TPS&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;STK Push NEW .xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_STK_Push_Transaction_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;STK_Push_Transaction SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Safaricom App.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Safaricom_App_TPS-&lt;/csv&gt;&#xA;    &lt;sheet&gt;SM_Safaricom_App_TPS&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Safaricom App.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Safaricom_App_AVG_RT-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Safaricom App Avg RT&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Masoko.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Masoko_Checkout_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Checkout SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Masoko.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Masoko_Avg_TPS-&lt;/csv&gt;&#xA;    &lt;sheet&gt;AVG TPS&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Masoko.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Masoko_RT-&lt;/csv&gt;&#xA;    &lt;sheet&gt;RT&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
+      <ui:BuildDataTable DataTable="[filename]" DisplayName="Data Table with file and sheet names" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;xls&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;csv&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;sheet&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_M-PESA_Purchase_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa M-PESA Purchase SR &lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_M-PESA_Awarding_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa M-PESA Awards SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_Airtime_Purchase_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa Airtime Purchase SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;xls&gt;Tunukiwa.xlsx&lt;/xls&gt;&#xA;    &lt;csv&gt;SM_Tunukiwa_Airtime_Awarding_SR-&lt;/csv&gt;&#xA;    &lt;sheet&gt;Tunukiwa Airtime Award SR&lt;/sheet&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1307,62 +1277,38 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:BuildDataTable>
       <FlowStep.Next>
-        <FlowDecision x:Name="__ReferenceID5" Condition="[TimeNow = &quot;10&quot; OR TimeNow= &quot;03&quot;]" DisplayName="Is it time ?" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+        <FlowDecision x:Name="__ReferenceID5" Condition="[TimeNow = &quot;12&quot; OR TimeNow= &quot;09&quot;]" DisplayName="Is it time ?" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <av:Point x:Key="ShapeLocation">340.5,485.5</av:Point>
               <av:Size x:Key="ShapeSize">70,87</av:Size>
-              <av:PointCollection x:Key="TrueConnector">340.5,529 210,529 210,614.5</av:PointCollection>
-              <av:PointCollection x:Key="FalseConnector">410.5,529 440.5,529 440.5,530 562,530</av:PointCollection>
+              <av:PointCollection x:Key="TrueConnector">340.5,529 210,529 210,590</av:PointCollection>
+              <av:PointCollection x:Key="FalseConnector">410.5,529 440.5,529 440.5,530 472,530</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <FlowDecision.True>
             <FlowStep x:Name="__ReferenceID9">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">102,614.5</av:Point>
-                  <av:Size x:Key="ShapeSize">216,51</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">210,665.5 210,719</av:PointCollection>
+                  <av:Point x:Key="ShapeLocation">81,590</av:Point>
+                  <av:Size x:Key="ShapeSize">258,60</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">210,650 210,719</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <If Condition="[TimeNow =&quot;10&quot;]" DisplayName="time to get mail attachments" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="If_6">
+              <Assign DisplayName="Assign time to download mail attachments" sap:VirtualizedContainerService.HintSize="258,60" sap2010:WorkflowViewState.IdRef="Assign_19">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[csvTime]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">10:00</InArgument>
+                </Assign.Value>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <If.Then>
-                  <Assign DisplayName="Assign time to download mail attachments" sap:VirtualizedContainerService.HintSize="258,60" sap2010:WorkflowViewState.IdRef="Assign_19">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="x:String">[csvTime]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="x:String">10:00</InArgument>
-                    </Assign.Value>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </Assign>
-                </If.Then>
-                <If.Else>
-                  <Assign DisplayName="Assign time to download mail attachments" sap:VirtualizedContainerService.HintSize="258,60" sap2010:WorkflowViewState.IdRef="Assign_20">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="x:String">[csvTime]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="x:String">15:00</InArgument>
-                    </Assign.Value>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </Assign>
-                </If.Else>
-              </If>
+              </Assign>
               <FlowStep.Next>
                 <FlowStep x:Name="__ReferenceID8">
                   <sap:WorkflowViewStateService.ViewState>
@@ -1372,7 +1318,7 @@
                       <av:PointCollection x:Key="ConnectorLocation">210,741 210,784.5</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:GetOutlookMailMessages Account="NINGALWA@Safaricom.co.ke" DisplayName="Get Outlook Mail Messages" Filter="[&quot;[ReceivedTime] &gt;= '&quot;+now.ToShortDateString+&quot;' AND [ReceivedTime] &gt;= '&quot;+csvTime+&quot;'&quot;]" GetAttachements="False" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Inbox" MarkAsRead="True" Messages="[mailings]" OnlyUnreadMessages="False" TimeoutMS="300000" Top="1000">
+                  <ui:GetOutlookMailMessages Account="NINGALWA@Safaricom.co.ke" DisplayName="Get Outlook Mail Messages" Filter="[&quot;[ReceivedTime] &gt;= '&quot;+now.ToShortDateString+&quot;' AND [ReceivedTime] &gt;= '&quot;+csvTime+&quot;'&quot;]" GetAttachements="False" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Inbox" MarkAsRead="True" Messages="[mailings]" OnlyUnreadMessages="False" TimeoutMS="300000" Top="300">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1400,7 +1346,7 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <If Condition="[item.Subject.Contains(&quot;SM Tunukiwa&quot;)  OR item.Subject.Contains(&quot;SM Masoko&quot;) OR item.Subject.Contains(&quot;SM STK&quot;) OR item.Subject.Contains(&quot;SM Safaricom App&quot;)]" sap:VirtualizedContainerService.HintSize="480,235" sap2010:WorkflowViewState.IdRef="If_5">
+                              <If Condition="[item.Subject.Contains(&quot;SM Tunukiwa&quot;)]" sap:VirtualizedContainerService.HintSize="480,235" sap2010:WorkflowViewState.IdRef="If_5">
                                 <If.Then>
                                   <ui:SaveMailAttachments Attachments="{x:Null}" DisplayName="Save Attachments" sap:VirtualizedContainerService.HintSize="330,87" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" Message="[item]">
                                     <ui:SaveMailAttachments.FolderPath>
@@ -1428,12 +1374,12 @@
             <FlowStep x:Name="__ReferenceID6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">562,519</av:Point>
+                  <av:Point x:Key="ShapeLocation">472,519</av:Point>
                   <av:Size x:Key="ShapeSize">216,22</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">670,519 670,344.5 380,344.5 380,374.5</av:PointCollection>
+                  <av:PointCollection x:Key="ConnectorLocation">580,519 580,344.5 380,344.5 380,374.5</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Delay DisplayName="Delay 10 minutes" Duration="00:10:00" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="Delay_1">
+              <Delay Duration="00:10:00" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="Delay_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1454,6 +1400,5 @@
     <x:Reference>__ReferenceID7</x:Reference>
     <x:Reference>__ReferenceID8</x:Reference>
     <x:Reference>__ReferenceID9</x:Reference>
-    <x:Reference>__ReferenceID10</x:Reference>
   </Flowchart>
 </Activity>
