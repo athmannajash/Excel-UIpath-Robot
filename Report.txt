@@ -626,3 +626,225 @@ _time,AvgTps
 Wed Aug 14 09:00:00 2019,7.191813998546864
 
 -------------------------------------------------------------------------
+0316
+2019-08-14
+Tunukiwa M-PESA Purchase SR 
+Baseline
+99.2731976744192
+current stat
+_time,successRate
+Wed Aug 14 15:00:00 2019,99.93
+
+2019-08-14
+Tunukiwa M-PESA Awards SR
+Baseline
+99.9896005072923
+current stat
+_time,successRate
+Wed Aug 14 15:00:00 2019,100.0
+
+2019-08-14
+Tunukiwa Airtime Purchase SR
+Baseline
+99.4316677440188
+current stat
+_time,successRate
+Wed Aug 14 15:00:00 2019,99.9
+
+2019-08-14
+Tunukiwa Airtime Award SR
+Baseline
+85.4478709677419
+current stat
+_time,successRate
+Wed Aug 14 15:00:00 2019,92.8
+
+2019-08-14
+STK_Push_TPS
+Baseline
+2.38786455155583
+current stat
+_time,STKAvgTPS
+Wed Aug 14 15:00:00 2019,1.57
+
+2019-08-14
+STK_Push_Transaction SR
+Baseline
+91.5357142857142
+current stat
+_time,successRate
+Wed Aug 14 15:00:00 2019,85.8
+
+2019-08-14
+Safaricom App Avg RT
+Baseline
+2.31638659120592
+current stat
+_time,AvgResponseTime
+Wed Aug 14 15:00:00 2019,0.38
+
+2019-08-14
+Checkout SR
+Baseline
+99.1989396951618
+current stat
+_time,SuccessRate
+Wed Aug 14 15:00:00 2019,100.0
+
+2019-08-14
+SM_Safaricom_App_TPS
+Baseline
+47.7141992362019
+current stat
+_time,PeakTPS,AvgTps
+Wed Aug 14 15:00:00 2019,161,97.87333333333333
+
+2019-08-14
+RT
+Baseline
+1.82573598411058
+current stat
+_time,AverageResponseTime(sec),Max Response Time(sec)
+Wed Aug 14 15:00:00 2019,1.230574040775063,62.727119
+
+SM_Masoko_Avg_TPS-2019-08-14.csv
+2019-08-14
+AVG TPS
+Baseline
+6.64584554725698
+current stat
+_time,AvgTps
+Wed Aug 14 15:00:00 2019,10.501672240802675
+
+-------------------------------------------------------------------------
+1015
+2019-08-15
+Tunukiwa M-PESA Purchase SR 
+Baseline
+99.2768208092492
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,99.88
+
+2019-08-15
+Tunukiwa M-PESA Awards SR
+Baseline
+99.989659520807
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,100.0
+
+2019-08-15
+Tunukiwa Airtime Purchase SR
+Baseline
+99.4325771208207
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,99.7
+
+2019-08-15
+Tunukiwa Airtime Award SR
+Baseline
+85.4019884541373
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,88.8
+
+2019-08-15
+STK_Push_TPS
+Baseline
+2.38211165048544
+current stat
+_time,STKAvgTPS
+Thu Aug 15 09:00:00 2019,1.62
+
+2019-08-15
+STK_Push_Transaction SR
+Baseline
+91.5161505768062
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,89.7
+
+2019-08-15
+Safaricom App Avg RT
+Baseline
+2.30942324371206
+current stat
+_time,AvgResponseTime
+Thu Aug 15 09:00:00 2019,0.40
+
+2019-08-15
+Checkout SR
+Baseline
+99.2017139090304
+current stat
+_time,SuccessRate
+Thu Aug 15 09:00:00 2019,99.5
+
+2019-08-15
+SM_Safaricom_App_TPS
+Baseline
+47.720375737354
+current stat
+_time,PeakTPS,AvgTps
+Thu Aug 15 09:00:00 2019,151,84.82666666666667
+
+2019-08-15
+RT
+Baseline
+1.82139742742515
+current stat
+_time,AverageResponseTime(sec),Max Response Time(sec)
+Thu Aug 15 09:00:00 2019,1.233706534775247,701.375003
+
+SM_Masoko_Avg_TPS-2019-08-15.csv
+2019-08-15
+AVG TPS
+Baseline
+6.63273969497578
+current stat
+_time,AvgTps
+Thu Aug 15 09:00:00 2019,7.892556010599855
+
+-------------------------------------------------------------------------
+0133
+2019-08-15
+Tunukiwa M-PESA Purchase SR 
+Baseline
+99.280523627076
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,99.88
+
+2019-08-15
+Tunukiwa M-PESA Awards SR
+Baseline
+99.9897178683385
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,100.0
+
+2019-08-15
+Tunukiwa Airtime Purchase SR
+Baseline
+99.4343067092632
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,99.7
+
+2019-08-15
+Tunukiwa Airtime Award SR
+Baseline
+85.3925382653062
+current stat
+_time,successRate
+Thu Aug 15 09:00:00 2019,88.8
+
+2019-08-15
+STK_Push_TPS
+Baseline
+2.37722389861195
+current stat
+_time,STKAvgTPS
+Thu Aug 15 09:00:00 2019,1.62
